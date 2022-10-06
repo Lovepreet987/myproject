@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+ <script src="https://browser.sentry-cdn.com/7.12.0/bundle.tracing.min.js"
+  integrity="sha384-o3KQiYTQ9L5Y/dJz3i4P9UgxHGzKV/DejriFgBBIoUL170eRF1qFLlHE1xWucFbB"
+  crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/5349e8b5ba.js" crossorigin="anonymous"></script>
+ 
+
+  <style>
+    header img{
+        width: 60px;
+        height: 60px;
+        float: left;
+        margin: 20px auto;
+        margin-left: 20px;
+           
+      }
+      header nav{
+        float: right;
+        margin: 20px auto;
+        margin-right: 60px;
+         }
+  	 #bg-image{
+           float: left;
+           width: 30%;
+          height: 90vh;
+          background-image: url(img/picc.jpg);
+          background-position: left;
+             background-attachment: fixed;
+             background-repeat: no-repeat;
+          background-size: 40% 100%;
+          border-radius: 20px ;
+          margin-left: 50px;
+          margin-top: -35px;
+
+         }
+      
+      .tab-titles{
+          display: flex;
+          margin: 20px auto;
+          margin-left: 50px;
+          color: #AEA9A9;
+         }
+       
+
+         .tab-links{
+          margin-right: 50px;
+          font-size: 18px;
+          cursor: pointer;
+          position: relative;
+          color: #AEA9A9;
+         }
+
+         .tab-links::after{
+          content: '';
+          width: 0;
+          height: 3px;
+          background: #ff004f;
+          position: absolute;
+          left: 0;
+          bottom: -8px;
+          transition: 0.5s;
+         }
+         .tab-links.active-link::after{
+          width: 50%;
+         }
+         .tab-contents ul li span{
+          color: #AEA9A9;
+          font-size: 14px;
+         }
+
+         .tab-contents{
+          display: none;
+         }
+
+        .tab-contents.active-tab{
+          display: block;
+        }
+
+        .btn:hover{
+               transform: scale(1.1);
+               background-color: #ff004f;
+               
+        }    
+
+        i{
+          font-size: 35px;
+          margin-bottom: 20px;
+        }
+        
+       .services .service-list {
+        background-color: gray;
+        transition: background 2s transform 2s;
+       }
+        .services .service-list:hover{
+          background-color: #ff004f;
+          transform: translateY(-10px);
+
+        }
+        
+
+
+             
+  </style>
+</head>
+
+<body class="bg-dark text-light">
+<div class="container-fluid">
+   
+   
+	<div class="row ">
+		<header>
+  <img src="img/Llogo.jpg">
+
+  <nav class="navbar navbar-expand-lg navbar-light ">
+   <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active ">
+        <a class="nav-link text-white" href="#content-1">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#content-2">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#content-3">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="projects.php">All Projects</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#content-4">Contact </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</header>
+			
+ 
+</div>
+</div>
+
+
+<!-- content-1 -->
+<div id="content-1">
+<div class="row my-5 gx-5">
+	<div class="col-md-6 d-lg-block d-none" id="bg-image"></div>
+
+	<div class="col-md-6  d-block float-right  " style=" margin-left: 200px;   text-align: center;   padding-top: 150px;">
+		<figure class="text-start">
+			<p>Web Designer</p>
+    <h1 >Hi, I'm <span style="color: #ff004f;">Lovepreet Kaur</span></h1>
+    <button class="btn  rounded my-3" style="background-color: #ff004f; "><a href="img/resume.png" style="color: white; text-decoration: none;" >Download CV</a></button>
+		</figure>
+	</div>
+
+</div>
+</div>
+
+
+<!-- content-2 -->
+<div id="content-2">
+<div class="row">
+	<div class="col-md-6 d-block col-xl-6">
+		<h1 style="font-size: 50px;" class="text-white text-center my-5" >About Me</h1>
+   <p style="color: #AEA9A9;margin-left: 50px;">Web design is not about making a website—it’s about making an investment in your organization. SO, as a Web designer , I am Solution- oriented and problem solver and maintaining  software. Highly skilled in communication, collaboration and technical documentation . Always ready to do team work.</p>
+    <div class="tab-titles " >
+    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+    <p class="tab-links" onclick="opentab('education')">Education</p>   
+  </div>
+
+  <div class="tab-contents active-tab" id="skills">
+  <ul style="margin-left: 20px; color:#AEA9A9;">
+
+    <li><span>Create Responsive Website</span></li>
+    <li>Html , CSS ide</li>
+    <li>JavaScript</li>
+    <li>MySQL</li>
+    <li>Wordpress Framework</li>
+    <li>Photoshop</li>
+    <li>Illustrator</li>
+    <li>JQuery</li>
+    <li>Bootstrap</li>
+    <ul class="mt-3">
+      <li><span>Soft Skills</span></li>
+      <li>Fast Learner</li>
+      <li>Motivated</li>
+      <li>Time Management</li>
+    </ul>
+  </ul>
+</div>
+
+<div class="tab-contents "  id="experience">
+  <ul style="margin-left: 20px; color:#AEA9A9 ;">
+
+    <li><span>Experience of develop the Projects during courses</span></li>
+    <li>Have project of Alibaba company</li>
+    <li>Developed a project based on restaurant during the class course over the sublime text IDE.</li>
+    <li>Developed a website regarding to the Shein on Wordpress  framework</li>
+    <li>Developed the Marina Co based Website.</li>
+    
+   
+  </ul>
+</div>
+
+
+<div class="tab-contents  " id="education">
+  <ul style="margin-left: 20px; color:#AEA9A9 ;">
+    
+    <li><span>My Higher Education</span></li>
+    <li><b>2020-2021 | CDI College</b></li>
+    <li>Web Design and development</li>
+    
+    </ul>
+</div>
+
+	</div>
+	<div class="col-md-6 mt-5 text-center  d-block ">
+		<img src="img/picc2.jpg" width="400px" height="450px" class="img-fluid mx-5  my-5 border-1 rounded">
+     </div>
+</div>
+</div>
+
+<script type="text/javascript">
+  var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+
+       
+    }
+  
+   
+</script>
+
+
+<!-- content-3 -->
+<div id="content-3">
+<div class="services row grid col-md-12 col-sm-6 col-xs-3 col-xxs-2  justify-content-md-center  my-5  " >
+  <h1 style="font-size: 50px;" class="text-white  text-center my-5" >My Services</h1>
+
+	<div class=" service-list  g-col-3 col-md-3 mx-3 my-3  rounded" style="height: 350px; padding-top: 30px;">
+  <i class="fa-solid fa-code"></i>
+   <h2>Web Design</h2>
+   <p>Highly skilled in Programming Language . Redesigned and coded websites regarding  restaurant , fashion and  E-commerce based companies during my course .</p>
+   
+
+ </div>
+  <div class="service-list  g-col-3 col-md-3 mx-3 my-3  rounded" style="height: 350px; padding-top: 30px;">
+    <i class="fa-solid fa-crop-simple"></i>
+    <h2>UI/UX Design</h2>
+    <p>Have experience to produce Designed and Developed responsive and adaptive websites using HTML5 , CSS , and Bootstrap . Able to  Conduct layout adjustments to produce Hierarchy of content. </p>
+    
+
+  </div>
+  <div class="service-list  g-col-3 col-md-3 mx-3 my-3   rounded" style="height: 350px; padding-top: 30px;">
+    <i class="fa-brands fa-app-store"></i>
+    <h2>Graphic Design</h2>
+   <p>
+     Have experience of Graphics Editor Development. Highly skilled in using Adobe Photoshop and Illustrator to produce graphic designs.
+   </p>
+   
+  </div>
+</div>
+</div>
+
+<div id="content-4">
+<div class="row " >
+  <div class="col-md-6 d-block text-center">
+    <h1 class="  my-5">Contact Me</h1>
+      <div class="">
+       <p>preetlove4041@gmail.com</p>
+        <p>514 654 6756</p>
+      </div>
+      <div class="social-icons " >
+       <a href="https://www.facebook.com/" class="text-white"><i class="fa-brands fa-facebook "></i></a>
+        <a href="https://www.instagram.com/"  class="text-white"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="https://www.linkedin.com/"  class="text-white"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+         <button class="btn  rounded my-5 " style="background-color: #ff004f; "><a href="img/resume.png" style="color: white; text-decoration: none;" >Download CV</a></button>
+
+</div>
+
+
+
+  <div class="col-md-6   my-5">
+         <h1 class="mb-5" style="color: white; ">Message Me</h1>
+      <form method="post" action="#">
+<div class="form-group ">
+
+<input class="form-control col-md-6 bg-dark text-light " type="text" id="name1" placeholder="First name">
+</div>
+<div class="form-group">
+
+<input class="form-control col-md-6 bg-dark text-light" type="text" id="name2" placeholder="Last name">
+</div>
+
+<div class="form-group">
+
+<input class="form-control col-md-6 bg-dark text-light" type="text" id="PhoneNumber" placeholder="Phone Number">
+</div>
+<div class="form-group ">
+  <textarea class=" msg bg-dark text-light " style="width: 328px; height: 100px; border-radius: 5px; border: 1px white  solid;" placeholder="Message" ></textarea>
+</div>
+<button type="button" class="btn btn-success " style="background-color:#ff004f ;">Submit</button>
+
+</form>
+</div>
+  </div>
+</div>
+
+
+<!-- footer -->
+<div class="row   bg-secondary " style="height: 60px;">
+    <div class="text-center" style="padding-top: 20px;">
+    <h6 >Copyright@Lovepreet.Kaur</h6>
+  </div>
+</div>
+
+	</div>
+
+</body>
+</html>
